@@ -43,7 +43,8 @@ form.addEventListener("submit", async (event) => {
   messages.scrollTop = messages.scrollHeight;
 
   try {
-    const response = await fetch("/api/chat", {
+    const response = await 
+    fetch("https://flash-ai-lxa0.onrender.com/api/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
